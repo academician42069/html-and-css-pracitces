@@ -1,0 +1,27 @@
+body {
+    background-color: magenta;
+}
+
+header h1 {
+    text-align: center;
+    color: greenyellow;
+}
+
+header a {
+    color: cyan;
+    font-weight: bold;
+}
+
+main > h1 {
+    text-align: center;
+    color: cyan;
+}
+
+section h1 {
+    text-align: center;
+    color: lawngreen;
+}
+
+section a:hover {
+    size: "125%"
+}
