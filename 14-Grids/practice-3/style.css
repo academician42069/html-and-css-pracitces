@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: 220px 100px 300px 300px 350px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 1em;
+}
+
+.layout > div {
+    background-color: lightgray;
+}
+
+.col-220 {
+    grid-column: span 2;
+}
+
+.col-700 {
+    grid-column: span 6;
+}
+
+.col-460 {
+    grid-column: span 4;
+}
